@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Scoreboard</title>
+</head>
+<body>
+    <h1>Duke vs. UNC Basketball Game</h1>
+
+    <main>
+        <p>Click the buttons to add point to each side</p>    
+        <table>
+            <thead>
+                <tr>
+                    <th>Team 1</th>
+                    <th>Team 2</th>
+                </tr>
+            </thead>
+            
+           <tbody>
+                <tr>
+                    <td id="score1">0</td>
+                    <td id="score2">0</td>
+                </tr>
+
+                <tr>
+                    <td><button id="button1">+1</button></td>
+                    <td><button id="button2">+1</button></td>
+                </tr>
+
+                <tr id="last_row">
+                    <td><button id="reset">Reset</button></td>
+                </tr>
+           </tbody>
+
+        </table>
+    </main>
+</body>
+</html>
