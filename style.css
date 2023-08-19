@@ -13,3 +13,11 @@ td, th {
     border: 1px solid; /* Add borders to table cells */
     text-align: center;
 }
+
+th{
+    background-color: darkcyan;
+}
+
+#reset-button {
+    padding: 10px 40px;
+}
