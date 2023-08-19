@@ -1,14 +1,28 @@
+body{
+    margin: 0px;
+    /* background-image: linear-gradient(to right, #141e30, #243b55); */
+}
+
 table{
     border-collapse: collapse;
     font-size: 0.9em;
-    border: 1px solid;
     margin-left: auto;
     margin-right: auto;
+}
+
+.centered {
+    text-align: center;
+}
+
+.topic {
+    /* border: 1px solid; */
+    padding: 20px 0;
+    background-color: #89BBFE;
     
 }
 
 td, th {
-    width: 200px;
+    width: 100px;
     padding: 10px 0; 
     border: 1px solid; /* Add borders to table cells */
     text-align: center;
@@ -20,4 +34,13 @@ th{
 
 #reset-button {
     padding: 10px 40px;
+}
+
+#reset-button:hover {
+    background-color: red;
+    color: aliceblue;
+}
+
+.addPoint:hover {
+    background-color: aquamarine;
 }
